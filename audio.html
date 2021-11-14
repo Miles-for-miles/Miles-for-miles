@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <audio>
+      <source src="themesong_max_el.wav"></source>
+    Your browser does not support audio.
+    </audio>
+  <button onclick="play()">play</button>
+  <button onclick="stop()">stop</button>
+  <script>
+    var x = document.getElementsByTagName("audio");
+    function play(){x.play()}
+    function stop(){x.pause()}
+  </script>
+  </body>
+</html>
